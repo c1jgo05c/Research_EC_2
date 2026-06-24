@@ -1,0 +1,28 @@
+# Ignore everything by default
+*
+!*/
+
+# Repository metadata
+!.gitignore
+!README.md
+
+# Input data (tracked)
+!EC_registered_voters_english.xlsx
+!PHC_national_age_sex_18plus.xlsx
+!response_data_1.xlsx
+!survey_coding_sheet_english.xlsx
+
+# Analysis code
+!electoral-studies-mrp/
+!electoral-studies-mrp/**
+
+# Generated outputs and local documents (not tracked)
+outputs/
+*.pdf
+*.docx
+
+# R session artifacts
+**/.Rproj.user/
+**/.Rhistory
+**/.RData
+**/.Ruserdata
